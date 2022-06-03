@@ -84,7 +84,7 @@ ol li {
 }
 
 .section-description {
-    margin: 0;
+    margin: 5px 0 10px 0;
     font-size: 1rem;
     text-align: center
 }
@@ -98,6 +98,10 @@ ol li {
 @media(min-width: 576px) {
     html {
         font-size: 20px;
+    }
+
+    .section-description {
+        margin: 8px 0 13px 0;
     }
 }
 
@@ -122,4 +126,7 @@ ol li {
     .menu-items li {
         font-size: 18px;
     }
+
+    .section-description {
+        margin: 10px 0 15px 0;    }
 }
